@@ -6,6 +6,7 @@ const connectDB = require('./config/db'); // Import DB logic
 
 // Import Routes
 const productRoutes = require('./routes/productRoutes');
+const basketRoutes = require('./routes/basketRoutes');
 const indexRoutes = require('./routes/indexRoutes');
 
 const app = express();
